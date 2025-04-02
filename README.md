@@ -10,17 +10,12 @@ git clone https://github.com/seu-usuario/usercontrolapi.git
 cd usercontrolapi
 ```
 
-### 2 **Instale as dependências**  
+### 2 **Instale as dependências e inicalize o banco de dados SQLite**  
 ```sh
 npm install
 ```
 
-### 3 **Inicialize o banco de dados SQLite**  
-```sh
-npm run postinstall
-```
-
-### 4 **Inicie o servidor**  
+### 3 **Inicie o servidor**  
 ```sh
 npm start
 ```
