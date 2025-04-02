@@ -15,7 +15,18 @@ cd usercontrolapi
 npm install
 ```
 
+### 2 **Crie um arquivo .env com as credenciais do arquivo .env.example que está na raiz do projeto**  
+
+Exemplo
+<br>
+PORT=3030
+<br>
+NODE_ENV=dev
+<br>
+JWT_SECRET=secret
+
 ### 3 **Inicie o servidor**  
 ```sh
 npm start
 ```
+### A Aplicação rodará na porta 3030 do localhost ### 
